@@ -8,7 +8,7 @@ module.exports = function (env) {
         SECRET: env.SECRET,
         
         CORS_ENABLE: true,
-        CORS_ORIGIN: http://localhost:3000,
+        CORS_ORIGIN: 'http://localhost:3000',
 
         // Reference: https://docs.railway.app/deploy/exposing-your-app
         PORT: env.PORT,
